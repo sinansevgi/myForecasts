@@ -1,6 +1,8 @@
 import getForecast from './modules/dataflow';
 import domFuncs from './modules/domFuncs';
 
+require('dotenv').config();
+
 const getButton = document.getElementById('getForecast');
 const unitSwitch = document.getElementById('unitSwitch');
 const appid = process.env.API_TOKEN;
