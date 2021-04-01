@@ -3,7 +3,7 @@ import domFuncs from './modules/domFuncs';
 
 const getButton = document.getElementById('getForecast');
 const unitSwitch = document.getElementById('unitSwitch');
-const appid = 'PLEASE PUT YOUR API KEY HERE';
+const appid = process.env.API_TOKEN;
 
 getButton.addEventListener('click', () => {
   const units = domFuncs.unitSelect();
