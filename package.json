@@ -1,5 +1,5 @@
 {
-  "name": "myweather",
+  "name": "myforecast",
   "version": "1.0.0",
   "description": "Simple example for weather api",
   "main": "index.js",
