@@ -29,7 +29,7 @@ const updateWeather = (data) => {
   const cityName = document.getElementById('city');
   resultTitle.textContent = `${data.forecast}`;
   resultField.textContent = `${data.temperature}`;
-  forecastLogo.setAttribute('src', `http://openweathermap.org/img/wn/${data.forecastIcon}@4x.png`);
+  forecastLogo.setAttribute('src', `https://openweathermap.org/img/wn/${data.forecastIcon}@4x.png`);
   backgroundContainer.classList = [];
   backgroundContainer.classList.add('container', backgroundChanger(data.forecastIcon));
   cityName.textContent = data.city;

@@ -1,5 +1,5 @@
 const getForecast = async (city, isDegree, appid) => {
-  const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=${isDegree}&appid=${appid}`);
+  const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${isDegree}&appid=${appid}`);
   const data = await response.json();
   if (response.ok) {
     const forecast = data.weather[0].main;

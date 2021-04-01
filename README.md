@@ -1,87 +1,78 @@
 # Forecast App
 
 ## About
-This Weather App is a simple web application that uses OpenWeatherMap API  to fetch weather data for a specific location. It uses the data to change the background image relevant to the weather and displays other information.
-![screenshot](./screenshot.jpg)
+This is a simple weather forecast app.
+It uses OpenWeatherMap API to get weather data.
+Users cab search for a specific location and toggle displaying the data in Fahrenheit or Celsius.
+
+![screenshot](./screenshot.png)
 
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://sinansevgi.github.io/myForecasts/)
+
+## Built With
+
+- Javascript
+- Webpack
+- Npm
 
 ## Getting Started
 
 * Clone this repo
+    ```bash
+    git clone https://github.com/sinansevgi/myForecasts.git
     ```
-    git clone https://github.com/smcommits/weather_app.git
-    ```
-* Navigate to project folder
-    ```
-    cd weather_app
+* Open project folder
+  ```bash
+    cd myForecasts
     ```
 * Install all the dependencies using the following command
+  ```bash
+    yarn install
     ```
-    npm install
-    ```
+* Open `src/index.js`
+
+* Replace `'PLEASE PUT YOUR API KEY HERE'` with your api key.
+
+* You can follow instruction given [here]((https://openweathermap.org/)) to get an api key
+
+* Compile js file with following command.
+  ```bash
+  npm run build
+  ```
+
 * Navigate to the dist folder
-   ```
-   cd dist
-   ```
-* To interact with the website, open index.html in your web browser.
 
-## API Setup
+* You can open `index.html` with your preferred browser.
 
-The application uses two different APIs. The [OpenWeatherMap](https://openweathermap.org/) API to fetch the weather data and Pexels API to fetch images relevant to weather condition
-
-### Open Weather Map API Setup
-To setup OpenWeatherMap API, please visit [OpenWeatherMap's website.](https://openweathermap.org/). The API key is all you need to call any of our weather APIs.
-Once you sign up using your email, the API key (APPID) will be sent to you in a confirmation email.
-Your API keys can always be found on your account page, where you can also generate additional API keys if needed.
-
-After successfully acquiring the API, you can use [this documentation](https://openweathermap.org/current) to learn more about different endpoints and how to use an API key to fetch data.
-
-Example Use:
-
-```
-api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-```
-
-### Pexels API Setup
-To setup Pexels API, please visit [Pexel's API Wesbite](https://www.pexels.com/api/). You need an API key to communicate with different endpoints. To acquire an API key, please create an account and login.
-After acquiring the API key, please use [this documentation](https://www.pexels.com/api/documentation/) to learn more about different endpoints and the kind of data you can fetch from Pexels
-
-Example Use:
-```
-curl -H "Authorization: {your API key}" \
-  "https://api.pexels.com/v1/search?query=nature&per_page=1"
-```
-
-## Technologies Used
-- Javascript (vanilla)
-- Webpack for bundling the code
-- NPM for dependencies and script handling
-- ESLINT for lining Javascript
-- Sylelint for lining CSS
+* You can also use `npm run start:dev` for running development server. 
 
 
 ## Authors
 
-👤 **Anas Siddiqui**
-- GitHub: [@githubhandle](https://github.com/smcommits)
-- LinkedIn: [linkedIn](https://linkedin.com/in/sm-anas)
-
+👤 **Sinan Sevgi**
+- GitHub: [@sinansevgi](https://github.com/sinansevgi)
+- LinkedIn: [@sinansevgi](https://www.linkedin.com/in/sinansevgi/)
+- Twitter: [@nativeofcybers1](https://twitter.com/nativeofcybers1)
+- Portfolio: [Website](https://sinansevgi.com)
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/smcommits/private-events/issues).
+Feel free to check the [issues page](https://github.com/sinansevgi/myForecasts/issues).
 
 
-## Acknowledgements
+## Acknowledgments
 
-Credits go to The Odin Project for providing essential guidance and an opportunity to build this amazing project
-- [**The Odin Project**](https://www.theodinproject.com/home)
+[The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/weather-app)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
 
