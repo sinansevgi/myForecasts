@@ -45,8 +45,17 @@ Users cab search for a specific location and toggle displaying the data in Fahre
 
 * You can open `index.html` with your preferred browser.
 
-* You can also use `npm run start:dev` for running development server. 
+* You can also use `npm run start` for running development server. 
 
+## Getting api key
+
+* Sign up for a OpenWeatherMap User Account
+
+* Subscribe to the free API plan
+
+* Navigate to API section 
+  
+* Generate an API key.
 
 ## Authors
 
