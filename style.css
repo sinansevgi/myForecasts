@@ -5,9 +5,8 @@ body {
 .container {
     max-width: 1080px;
     margin: auto;
-    padding: 20px;
+    padding: 20px 20px 200px 20px;
     text-align: center;
-    height: 80vh;
     border-radius: 5px;
 }
 
