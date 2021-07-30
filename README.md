@@ -62,7 +62,6 @@ Users cab search for a specific location and toggle displaying the data in Fahre
 👤 **Sinan Sevgi**
 - GitHub: [@sinansevgi](https://github.com/sinansevgi)
 - LinkedIn: [@sinansevgi](https://www.linkedin.com/in/sinansevgi/)
-- Twitter: [@nativeofcybers1](https://twitter.com/nativeofcybers1)
 - Portfolio: [Website](https://sinansevgi.com)
 
 ## Contributing
